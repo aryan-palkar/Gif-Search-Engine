@@ -1,4 +1,39 @@
 body{
     margin: 0;
     background-color: aquamarine;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.search{
+    display: flex;
+    justify-content: center;
+}
+
+.search-bar{
+    background-color: rgba(0, 0, 0, 0.774);
+    border: none;
+    border-radius: 0.4rem;
+    width: 100%;
+    max-width: 300px;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.search-button{
+    background-color: rgba(0, 0, 0, 0.774);
+    border: none;
+    border-radius: 50%;
+    color: white;
+    outline: none;
+}
+
+.search-button:hover{
+    background-color: tan;
+    color: black;
 }
